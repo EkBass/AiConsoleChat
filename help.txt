@@ -1,0 +1,19 @@
+/* This is help.txt for quick help in console
+   Commands:
+    ---help                     - show this help
+    ---exit ---quit ---bye      - exit application
+    ---clear ---cls             - clear screen
+    ---catch show               - show catchCode
+    ---catch clear              - clear catchCode
+    ---catch file:filename      - write catchCode to file
+    ---reset                    - reset short history
+    ---history                  - show short history
+    ---context                  - show context
+    ---load filename            - load text file and send it to AI
+
+    If you close your code inside "<<<" and ">>>", it will be sent to AI as code.
+    You can also use <code> and </code> tags.
+    Consult readme.txt for more info.
+
+    Thanks, Krisu 2023
+*/
