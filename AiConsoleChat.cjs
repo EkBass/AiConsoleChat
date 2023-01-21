@@ -272,14 +272,19 @@ function shortHistoryAdjust(shortHistory, newMessage) {
     if(shortHistory.length < 1) {
         shortHistory = fs.readFileSync(logShort, "utf8");
     }
+    
+    
     // if check lenght of shortHistory > 1024
-    if(shortHistory.length > 1024) {
-        // find first occurance of </ts> tag
-        let firstTs = shortHistory.indexOf("</ts>");
+    while(shortHistory.length > 1024) {
+        // get location of first timestamp
+        let firstTimestamp = shortHistory.indexOf("</ts>");
         // remove everything before first timestamp
-        shortHistory = shortHistory.substring("</ts>");
+        shortHistory = shortHistory.slice(firstTimestamp + 5);
+
+        // keep looping until shortHistory is ok
     }
 
+    
     // lenght is ok, so we add newMessage to shortHistory
     shortHistory += newMessage;
         
