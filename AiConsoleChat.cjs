@@ -1,9 +1,11 @@
-/*  Program: AiConsoleChat.cjs
+/*  [[hidden]]
+    Program: AiConsoleChat.cjs
     See readme.txt for more information
     Kristian Virtanen, 2023
     krisu.virtanen@gmail.com
     GNU General Public License v3.0
     Source code https://github.com/EkBass/AiConsoleChat
+    [[/hidden]]
 */
 
 // Set your own API key here
