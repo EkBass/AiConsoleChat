@@ -1,3 +1,8 @@
+# Update 
+18.09.2023
+
+Due changes at models and API's at OpenAI, this projects is not good to use anymore. But i leave it here as example of how it was done back in days.
+
 # AiConsoleChat
 OpenAi Chat Bot with some neat features
 
